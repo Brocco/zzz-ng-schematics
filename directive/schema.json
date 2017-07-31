@@ -30,6 +30,11 @@
     "flat": {
       "type": "boolean",
       "default": false
+    },
+    "export": {
+      "type": "boolean",
+      "default": false,
+      "description": "Specifies if declaring module exports the directive."
     }
   },
   "required": [
