@@ -1,0 +1,54 @@
+{
+  "schematics": {
+    "angular-app": {
+      "factory": "./angular-app",
+      "schema": "./angular-app/schema.json",
+      "description": "Create an Angular application."
+    },
+    "class": {
+      "factory": "./class",
+      "description": "Create a class.",
+      "schema": "./class/schema.json"
+    },
+    "component": {
+      "factory": "./component",
+      "description": "Create an Angular component.",
+      "schema": "./component/schema.json"
+    },
+    "directive": {
+      "factory": "./directive",
+      "description": "Create an Angular directive.",
+      "schema": "./directive/schema.json"
+    },
+    "enum": {
+      "factory": "./enum",
+      "description": "Create an enumeration.",
+      "schema": "./enum/schema.json"
+    },
+    "guard": {
+      "factory": "./guard",
+      "description": "Create an guard.",
+      "schema": "./guard/schema.json"
+    },
+    "interface": {
+      "factory": "./interface",
+      "description": "Create an interface.",
+      "schema": "./interface/schema.json"
+    },
+    "module": {
+      "factory": "./module",
+      "description": "Create an Angular module.",
+      "schema": "./module/schema.json"
+    },
+    "pipe": {
+      "factory": "./pipe",
+      "description": "Create an Angular pipe.",
+      "schema": "./pipe/schema.json"
+    },
+    "service": {
+      "factory": "./service",
+      "description": "Create an Angular service.",
+      "schema": "./service/schema.json"
+    }
+  }
+}
