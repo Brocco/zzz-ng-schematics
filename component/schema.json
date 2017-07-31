@@ -40,7 +40,7 @@
       "enum": ["Default", "OnPush"],
       "type": "string",
       "default": "Default",
-      "alias": "ve"
+      "alias": "cd"
     },
     "routing": {
       "type": "boolean",
