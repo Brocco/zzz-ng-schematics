@@ -80,6 +80,11 @@
       "description": "Allows specification of the declaring module.",
       "alias": "m",
       "subtype": "filepath"
+    },
+    "export": {
+      "type": "boolean",
+      "default": false,
+      "description": "Specifies if declaring module exports the component."
     }
   },
   "required": [
