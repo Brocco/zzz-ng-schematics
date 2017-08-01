@@ -9,6 +9,6 @@ describe('<%= utils.dasherize(name) %> App', () => {
 
   it('should display message saying app works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('<%= prefix %> works!');
+    expect(page.getParagraphText()).toEqual('Welcome to <%= prefix %>!');
   });
 });
