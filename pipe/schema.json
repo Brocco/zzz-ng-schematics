@@ -17,7 +17,7 @@
     },
     "flat": {
       "type": "boolean",
-      "default": false,
+      "default": true,
       "description": "Flag to indicate if a dir is created."
     },
     "spec": {
