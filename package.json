@@ -1,6 +1,6 @@
 {
   "name": "@schematics/angular",
-  "version": "0.0.8",
+  "version": "0.0.11",
   "description": "Schematics specific to Angular",
   "keywords": [
     "angular",
@@ -13,7 +13,7 @@
   ],
   "schematics": "./collection.json",
   "dependencies": {
-    "@angular-devkit/schematics": "0.0.9"
+    "@angular-devkit/schematics": "0.0.11"
   },
   "repository": {
     "type": "git",

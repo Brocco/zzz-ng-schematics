@@ -1,8 +1,8 @@
 {
   "schematics": {
-    "angular-app": {
-      "factory": "./angular-app",
-      "schema": "./angular-app/schema.json",
+    "application": {
+      "factory": "./application",
+      "schema": "./application/schema.json",
       "description": "Create an Angular application."
     },
     "class": {
