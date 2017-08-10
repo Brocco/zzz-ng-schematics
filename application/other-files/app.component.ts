@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
   `,<% } else { %>
   templateUrl: './app.component.html',<% } if(inlineStyle) { %>
   styles: []<% } else { %>
-  styleUrls: ['./app.component.<%= style %>']<% } %>
+  styleUrls: ['./app.component.<%= styleext %>']<% } %>
 })
 export class AppComponent {
   title = '<%= prefix %>';
