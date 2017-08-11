@@ -6,4 +6,5 @@
 * found in the LICENSE file at https://angular.io/license
 */
 import { Rule } from '@angular-devkit/schematics';
-export default function (options: any): Rule;
+import { Schema as ClassOptions } from './schema';
+export default function (options: ClassOptions): Rule;

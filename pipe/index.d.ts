@@ -7,4 +7,5 @@
  */
 import { Rule } from '@angular-devkit/schematics';
 import 'rxjs/add/operator/merge';
-export default function (options: any): Rule;
+import { Schema as PipeOptions } from './schema';
+export default function (options: PipeOptions): Rule;
