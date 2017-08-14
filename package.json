@@ -13,7 +13,7 @@
   ],
   "schematics": "./collection.json",
   "dependencies": {
-    "@angular-devkit/schematics": "0.0.16"
+    "@angular-devkit/schematics": "0.0.17"
   },
   "repository": {
     "type": "git",
