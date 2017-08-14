@@ -1,6 +1,6 @@
 {
   "name": "@schematics/angular",
-  "version": "0.0.25",
+  "version": "0.0.26",
   "description": "Schematics specific to Angular",
   "keywords": [
     "angular",
